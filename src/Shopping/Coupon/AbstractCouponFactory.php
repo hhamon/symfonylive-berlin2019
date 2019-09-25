@@ -13,7 +13,7 @@ abstract class AbstractCouponFactory implements CouponFactory
         $this->codeGenerator = $codeGenerator;
     }
 
-    public function createCoupon(array $context = []): Coupon
+    final public function createCoupon(array $context = []): Coupon
     {
         $code = $context['code'] ?? $this->codeGenerator->generate();
 
