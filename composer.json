@@ -5,7 +5,7 @@
     "require": {
         "moneyphp/money": "^3.2",
         "beberlei/assert": "^3.2",
-        "twig/twig": "^2.9",
+        "twig/twig": "^3.11",
         "symfony/options-resolver": "^4.3",
         "monolog/monolog": "^1.25"
     },
